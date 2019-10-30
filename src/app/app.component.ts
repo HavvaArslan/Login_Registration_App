@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+// import {HttpClient} from 
+import { Model } from './model';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'login-angular-app';
+  //model=new Model();
+
+ /* getName(){
+    return this.model.email;
+  }*/
+
+  constructor(){
+
+  }
+
+
 }
